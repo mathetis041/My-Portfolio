@@ -20,9 +20,12 @@ module.exports = {
         /*Width used for home webpage only*/
         mob_para : '500px',
 
-        /*Width useed for About webpage only*/
+        /*Width used for About webpage only*/
         laptop_para : '450px',
         desktop_para: '550px',
+
+        /*width used for Service div webpage*/
+        service_divs : '45%',
       },
 
       backgroundImage: {

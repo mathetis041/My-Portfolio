@@ -8,18 +8,18 @@
     <title>Services</title>
   </head>
 
-  <body class="bg-slate-950">
+  <body class="bg-slate-950 pt-20">
     <header>
       <!--Tne nav section containing the logo and the navigation links-->
-      <nav class="flex justify-between p-6">
+      <nav class="flex justify-between p-6 fixed top-0 w-full bg-slate-950">
         <!--The logo which is the name-->
         <p class="text-white text-xl font-bold lg:w-1/4">
           Matt<span class="text-blue-400">hew</span>
         </p>
 
-        <!--The div holding the navigation links and the mobile and tablet hamburger-->
+        <!--The div holding the navigation links and the mobile hamburger-->
         <div class="flex flex-col lg:w-2/4 xl:w-1/4">
-          <!--The Hamburger icon only on mobile and tablet-->
+          <!--The Hamburger icon only on mobile-->
           <button>
             <img
               class="w-10 float-right md:hidden"
@@ -34,133 +34,79 @@
             class="bg-slate-50 w-40 rounded-sm absolute top-16 right-8 z-10 md:static hidden md:w-full md:bg-inherit md:flex md:justify-between md:text-blue-300"
             id="menu"
           >
-            <li class="nav-ul-li"><a href="#">HOME</a></li>
-            <li class="nav-ul-li"><a href="#">ABOUT ME</a></li>
-            <li class="nav-ul-li"><a href="#">PROJECTS</a></li>
-            <li class="nav-ul-li"><a href="#">SERVICES</a></li>
+            <li class="nav-ul-li"><a href="index.html">HOME</a></li>
+            <li class="nav-ul-li"><a href="about.html">ABOUT ME</a></li>
+            <li class="nav-ul-li"><a href="project.html">PROJECTS</a></li>
+            <li class="nav-ul-li"><a href="service.html">SERVICES</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main class >
+    <main>
       <!--The centered container holding all contents in the main-->
-      <div class="text-white bg-slate-900 p-5 md:w-2/4 md:rounded-md md:mx-auto">
-
+      <div
+        class="text-white bg-slate-900 p-5 mt-10 md:mt-0 md:w-2/4 md:rounded-md md:mx-auto xl:pb-10"
+      >
         <!--Brief description of my services-->
         <section class="text-center">
-          <h1 class="text-xl pb-5">OUR SERVICES</h1>
-          <p>I offer unique services by bringing your vision and mission together to create an identity for your product.</p>
+          <h1 class="text-xl pb-5">
+            OUR <span class="text-blue-400 font-bold">SERVICES</span>
+          </h1>
+          <p class="text-sm pb-10 lg:pb-0">
+            I offer unique services by bringing your vision and mission together
+            to create an identity for your product.
+          </p>
         </section>
 
-        <!--The container holding the target icon and  section-->
+        <!--The container holding the divs alone-->
+        <div class="flex flex-wrap lg:gap-x-10">
+          <!--The Goal section-->
+          <div class="pt-5 text-center lg:text-left service-divs">
+            <h2 class="service-h2">IDENTIFY GOALS</h2>
+            <p class="text-sm">
+              We work closely with you to understand and identify your business
+              goals that can be converted into an actionable plan.
+            </p>
+          </div>
+
+          <!--idea section-->
+          <div class="pt-5 text-center lg:text-left service-divs">
+            <h2 class="service-h2">IDEAS</h2>
+            <p class="text-sm">
+              The ideas and plans that we have jotted will then be brought to
+              life. We help and guide you to take the first step and set things
+              up.
+            </p>
+          </div>
+
+          <!--implementation section-->
+          <div class="pt-5 text-center lg:text-left service-divs">
+            <h2 class="service-h2">IMPLEMENTATION</h2>
+            <p class="text-sm">
+              We implement those ideas and help build a valuable relationship
+              between your business and users. Building trust and transparency
+              in the hearts of users.
+            </p>
+          </div>
+
+          <!--growth section-->
+          <div class="pt-5 text-center lg:text-left service-divs">
+            <h2 class="service-h2">GROWTH</h2>
+            <p class="text-sm">
+              Setting up a business is not enough. We help you think ahead and
+              encourage you to expand your business with a full-proof plan.
+            </p>
+          </div>
+          <!--
         <div class="flex pt-5">
-
-          <!--target image-->
-          <span>
-            <img class="w-10" src="images/target-svgrepo-com.svg" alt="Service target">
-          </span>
-
-          <!---->
-          <span class="pt-3 px-4">
-            <h2 class="mb-3">
-              ADVISORY
-            </h2>
-            <span class="grid lg:grid-cols-2 md:gap-4">
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Communication</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Accounting</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Transition</p>
-              </span>
-            </span>
-          </span>
-        </div>
-
-        <div class="flex pt-5">
-
-          <!--target image-->
-          <span>
-            <img class="w-10" src="images/building-svgrepo-com (2).svg" alt="Service building">
-          </span>
-
-          <!---->
-          <span class="pt-3 px-4">
-            <h2 class="mb-3">
-              ADVISORY
-            </h2>
-            <span class="grid lg:grid-cols-2 md:gap-4">
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Communication</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Accounting</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Transition</p>
-              </span>
-            </span>
-          </span>
-        </div>
-
-        <div class="flex pt-5">
-
-          <!--target image-->
-          <span>
-            <img class="w-10" src="images/progress-report-svgrepo-com (2).svg" alt="Service progress">
-          </span>
-
-          <!---->
-          <span class="pt-3 px-4">
-            <h2 class="mb-3">
-              ADVISORY
-            </h2>
-            <span class="grid lg:grid-cols-2 md:gap-4">
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Communication</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Accounting</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Transition</p>
-              </span>
-            </span>
-          </span>
-        </div>
-
-        <div class="flex pt-5">
-
-          <!--target image-->
-          <span>
-            <img class="w-10" src="images/setting-2-svgrepo-com (2).svg" alt="Service setting">
-          </span>
-
-          <!---->
-          <span class="pt-3 px-4">
-            <h2 class="mb-3"> 
-              ADVISORY
-            </h2>
-            <span class="grid lg:grid-cols-2 md:gap-4">
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Communication</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Accounting</p>
-              </span>
-              <span>
-                <p><img class="Checklist" src="images/check-svgrepo-com.svg" alt="radio check">Transition</p>
-              </span>
-            </span>
-          </span>
+          
+        </div>-->
         </div>
       </div>
     </main>
 
-    <footer class="bg-slate-900 px-5 py-5 md:py-3 lg:mt-32 xl:mt-9">
+    <footer class="bg-slate-900 px-5 py-5 md:py-3 mt-20 md:mt-10 lg:mt-24 xl:mt-9">
       <!--footer paragraph introducing the social media platforms-->
       <p class="text-white font-semi-bold">
         Kindly click and follow us on our social media handles:
@@ -171,7 +117,7 @@
         <!--The Container holding all the social media links-->
         <div class="flex justify-between items-center pt-2 md:w-96 lg:w-96">
           <!--Linkedin link-->
-          <a href="#">
+          <a href="https://www.linkedin.com/in/matthew-onuoha-b77a16239">
             <img
               class="w-10"
               src="images/linkedin-svgrepo-com.svg"
@@ -180,7 +126,7 @@
           </a>
 
           <!--Email link-->
-          <a href="#">
+          <a href="www.matthewonuoha41@gmail.com">
             <img
               class="w-7"
               src="images/gmail-old-svgrepo-com.svg"
@@ -188,32 +134,18 @@
             />
           </a>
 
-          <!--Github link-->
-          <a href="#">
-            <img
-              class="w-10"
-              src="images/github-142-svgrepo-com.svg"
-              alt="linkedin logo"
-            />
-          </a>
-
-          <!--Twitter link-->
-          <a href="#">
+          <!--CV link-->
+          <a
+            href="https://docs.google.com/document/d/1d0B4llfcct370syKhbvtUUq89RiIdPSFVCVz42lClfg/edit?usp=sharing"
+          >
             <img
               class="w-8"
-              src="images/twitter-color-svgrepo-com.svg"
+              src="images/cv-file-interface-symbol-svgrepo-com.svg"
               alt="linkedin logo"
             />
           </a>
 
-          <!--Facebook link-->
-          <a href="#">
-            <img
-              class="w-9"
-              src="images/facebook-svgrepo-com.svg"
-              alt="linkedin logo"
-            />
-          </a>
+         
         </div>
 
         <!--Copyright and date of creation-->

@@ -11,3 +11,12 @@
 .Checklist{
     @apply bg-white w-4 rounded-full inline mr-3
 }
+.service-h2{
+    @apply mb-3 font-bold text-blue-400
+}
+.service-divs{
+    @apply pt-5 lg:w-service_divs
+}
+.project{
+    @apply m-6 py-5 text-white
+}
